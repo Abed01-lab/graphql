@@ -162,6 +162,8 @@ Restful has the biggest following out of the three API’ this makes restful att
 
 ## How to start
 
+If you use npm then replace yarn => npm
+
 1. Clone the project
 2. Run yarn
 3. Run yarn db-update (Make  sure you have a .env file with variable DATABASE_URI set to your postgres URL)
