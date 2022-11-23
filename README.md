@@ -76,7 +76,7 @@ This is the standard way of developing as restful API, but there is a better way
 
 In graphQL we always point to the same URI “example.com/graphql”, the only thing that changes is the query we send to the API. For example if we want to get the user as we did with restful api we do it this way:
 
-```Json
+```ts
 getUser(email: "test@email.com") {
     email
     firstname
@@ -102,7 +102,7 @@ As you can se we call a query called getUser and we give a parameter email, so t
 
 If we want to see the people this users posts, then we only need to tell that to GraphQL by adding a attribute in the query called posts, and GraphQL does the rest. Example
 
-```json
+```ts
 getUser(email: "abedharirii@gmail.com") {
     email
     firstname
