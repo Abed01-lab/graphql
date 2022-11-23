@@ -37,7 +37,7 @@ Lets say we have a user. In a REST API we define a URI for the user example: “
 
 ```json
 {
-		"email": "abedharirii@gmail.com",
+    "email": "abedharirii@gmail.com",
     "firstname": "abed",
     "lastname": "hariri",
     "age": 321
@@ -48,7 +48,7 @@ So far so good, but what if we need the posts this user has then we need to crea
 
 ```json
 {
-	"email": "abedharirii@gmail.com",
+  "email": "abedharirii@gmail.com",
   "firstname": "abed",
   "lastname": "hariri",
   "age": 321,
